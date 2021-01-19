@@ -22,6 +22,10 @@ body{
     font-weight: bold;
     text-align: center;
 }
+.explanation{
+    font-size: 10px;
+    text-align: center;
+}
 .tittlebox{
     height: 180px;
 }
