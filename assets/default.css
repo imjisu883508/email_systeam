@@ -1,0 +1,30 @@
+/*기본 세팅 CSS입니다.*/
+
+/*font 모음*/
+@font-face {
+    font-family: 'paybooc-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family:'paybooc-Bold', ng, white;
+    color:white;
+    background: #151515;
+}
+
+/*div css*/
+
+/*p css*/
+.tittle{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.tittlebox{
+    height: 130px;
+}
+.buttenbox{
+    height: 230px;
+}

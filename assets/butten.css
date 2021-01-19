@@ -1,0 +1,51 @@
+  .container {
+    padding: 2em;
+  }
+  
+  /* GENERAL BUTTON STYLING */
+  button,
+  button::after {
+    -webkit-transition: all 0.8s;
+      -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+      transition: all 0.8s;
+  }
+  
+  button {
+    background: tomato;
+    border: 3px solid tomato;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 1em auto;
+    padding: 1em 2em;
+    position: relative;
+    text-transform: uppercase;
+  }
+  
+  button::before,
+  button::after {
+    background: #151515;
+    content: '';
+    position: absolute;
+    z-index: -1;
+  }
+  
+  button:hover {
+    background: #151515;
+    color: tomato;
+  }
+  
+  /* BUTTON 1 */
+  .btn-1::after {
+    height: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  
+  .btn-1:hover:after {
+    height: 100%;
+  }
