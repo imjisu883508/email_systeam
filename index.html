@@ -6,9 +6,9 @@
     <title>Email system</title>
     <!--css 불러오기-->
     <style type="text/css">
-        @import url("assets/main.css");
-        @import url("assets/butten.css");
-        @import url("assets/tittle.css");
+        @import url("assets/main/main.css");
+        @import url("assets/main/butten.css");
+        @import url("assets/main/tittle.css");
     </style>
 </head>
 <body>
@@ -27,11 +27,16 @@
     </p>
     <p class="buttenbox">
     <div>
-        <button class="btn-1">📧이메일로 보내기</button><button class="btn-1">💬카카오톡 보내기</button>
+      <a onclick="alert('개발중인 서비스 입니다. 2021년 03월 부터 서비스 시작 예정입니다. 이전까지는 카카오톡 보내기만 가능합니다.');" style="cursor:pointer"><button class="btn-1">📧이메일로 보내기</button></a>
+      <a href="https://open.kakao.com/me/seoulmetro3519"><button class="btn-1">💬카카오톡 보내기</button></a>
       </div>
     </p>
     <p class="explanation">
         *이 사이트는 PC에서 가장 안정적으로 작동합니다.
     </p>
+    <br>
+    <p class="copyright">
+      Copyright © Hongjun Na 2021
+  </p>
 </body>
 </html>
